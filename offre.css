@@ -1,0 +1,173 @@
+.body{
+    font-family: Arial, sans-serif;
+    background-color:#f2F2F2;
+    margin: 0;
+    padding: 0;
+}
+.page{
+    text-align: center;
+    padding: 50px 20px;
+}
+.boite{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+}
+.offre{
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px ;
+    box-shadow: 3px 2px rgb(197, 196, 196);
+    border:1px solid gray
+}
+.offre:hover{
+    transition: 0,3s;
+}
+.offre h2{
+margin-bottom: 10px;
+}
+.tarif{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 20 px;
+color: #333;
+}
+.ul {
+list-style: none;
+padding: 0%;
+text-align: left;
+}
+.ul li{
+margin: 10px;
+}
+.button{
+
+margin-top:20px ;
+padding: 12px 20px;
+width:100%;
+border:none;
+border-radius:8px;
+background:#0000FF;
+color:#0000FF;
+font-size: 15px;
+
+
+}
+body {
+  background: #f0f0f0;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+.container {
+  width: 80%;            
+  max-width: 800px;      
+  margin: 0 auto;        
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}button {
+  background-color: #0000ff6c; 
+  color: white;             
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0033cca2; 
+}
+
+.top-menu {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 40px;
+}
+
+.top-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.top-menu a:hover {
+    color: #007bff;
+}
+
+
+.footer-bottom {
+    background-color: #007bff62; 
+    color: rgba(255, 255, 255, 0.497);              
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+
+    width: 100%;
+    position: fixed;  
+    bottom: 0;
+    left: 0;
+}
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.iutvannes.fr/wp-content/uploads/2015/02/fond-ecran-wallpaper-image-arriere-plan-hd-29-HD-e1424876389818.jpg");
+    background-size: contain;        
+    background-position: center; 
+    background-repeat: no-repeat;  
+
+}
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    top: 50vh;
+    right: 50%;
+    border-radius: 6px;
+    animation: move 6s infinite ease-in-out;
+    animation-direction: alternate;
+}
+
+
+@keyframes move {
+    0%   { 
+        transform: translateY(100px) rotate(180deg); 
+        background: black;
+    }
+    50%  { 
+        transform: translateY(0) rotate(270deg);
+        background: green;
+    }
+    75% { 
+        transform: translateY(100px) rotate(360deg);
+        background: blue;
+    }
+    100% { 
+        transform: translateY(0px) rotate(360deg);
+        background: orange;
+    }
+}
+
+
+
